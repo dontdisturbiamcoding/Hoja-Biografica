@@ -28,6 +28,10 @@ body {
     margin-top: 2.5rem;
 }
 
+.head img {
+    object-fit: cover;
+}
+
 h1 {
     font-size: 2.5rem;
 }
@@ -74,17 +78,20 @@ ul {
     padding: 0;
     gap: 1rem;
     flex-wrap: wrap;
+    margin: 3rem 0;
 }
 
 ul li {
     width: 20%;
     /* min-height: 8rem; */
     padding: 2.5rem;
-    border: 5px solid rgb(17,119,189);
     border-radius: 5rem;
     text-align: center;
     margin: 0 auto;
     font-size: 1.2rem;
+    background-color: rgb(17,119,189);
+    color: #fff;
+    border-bottom: 5px solid rgb(14, 97, 152);
 }
 
 .contacto {
