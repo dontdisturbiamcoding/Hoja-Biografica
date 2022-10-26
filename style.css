@@ -1,0 +1,163 @@
+/* googlefonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000c0;
+}
+
+.container {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+.blue {
+    color: rgb(17,119,189);
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+td p {
+    font-size: 1.4rem;
+}
+
+hr {
+    border-style: dotted;
+    border-width: 0.6rem 0 0;
+    width: 10%;
+    margin: 2.5rem auto;
+    border-color: rgb(17,119,189);
+}
+
+h3 {
+    font-size: 1.7rem;
+    margin: 2.5rem 0 1.5rem 0;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.des-empresa {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+ul li {
+    width: 20%;
+    /* min-height: 8rem; */
+    padding: 2.5rem;
+    border: 5px solid rgb(17,119,189);
+    border-radius: 5rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.cont {
+    font-weight: 700;
+}
+
+a {
+    color: rgb(17,119,189);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(12, 91, 143);
+    text-decoration: underline;
+}
+
+/*media query*/
+@media (max-width:768px)  {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container, body, html {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .head {
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    .head img {
+        max-width: 13rem;
+    }
+
+    .head-title h1 {
+        font-size: 2rem;
+    }
+
+    hr {
+        width: 50%;
+    }
+
+    .des-empresa {
+        flex-direction: column;
+    }
+
+    h4 {
+        font-size: 1.2rem
+    }
+
+    .logo {
+        margin-top: 2rem;
+    }
+
+    ul li {
+        min-width: 10rem;
+    }
+
+    .contacto span {
+        display: block;
+        margin-bottom: 0.5rem;        
+    }
+  }
