@@ -43,6 +43,7 @@ body {
 .head {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     gap: 2.5rem;
     margin-top: 2.5rem;
 }
