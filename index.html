@@ -5,19 +5,23 @@
       <title>Jordi Fernández - Hoja Biográfica</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- CSS personalizado -->
       <link rel="stylesheet" href="style.css">
       <!-- AOS css -->
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      
+      
     </head>
 
     <body>
       <div class="container">
         <div class="head">
-          <img src="profile-picture.png" alt="Jordi Fernández profile picture">
+          <img class="pictureProfile" src="profile-picture.png" alt="Jordi Fernández profile picture">
           <div class="head-title">
             <h1>Jordi Fernández</h1>
             <p><span class="blue">Sanitas</span> para empresas</p>
           </div>
+          <button id = "dark"><img src="moon.png"></button>
         </div>
 
       </table>
@@ -50,11 +54,11 @@
       <h3>Conectores</h3>
       <div class="conectores">
         <ul>
-          <li data-aos="fade-in" data-aos-duration="800">Departamento de Recursos Humanos</li>
-          <li data-aos="fade-in" data-aos-duration="800">Departamento de compras</li>
-          <li data-aos="fade-in" data-aos-duration="800">Gerentes</li>
-          <li data-aos="fade-in" data-aos-duration="800">Empresas del sector Tecnológico</li>
-          <li data-aos="fade-in" data-aos-duration="800">Empresas con dificultades para atraer o retener talento</li>
+          <li data-aos="fade-in" data-aos-duration="500">Departamento de Recursos Humanos</li>
+          <li data-aos="fade-in" data-aos-duration="500">Departamento de compras</li>
+          <li data-aos="fade-in" data-aos-duration="500">Gerentes</li>
+          <li data-aos="fade-in" data-aos-duration="500">Empresas del sector Tecnológico</li>
+          <li data-aos="fade-in" data-aos-duration="500">Empresas con dificultades para atraer o retener talento</li>
         </ul>
       </div>
       <div class="clientes">
@@ -65,14 +69,17 @@
       <hr>
       <h3>Contacto</h3>
       <div class="contacto">
-        <p><span class="cont">Teléfono empresa  </span>685 34 85 01</p>
-        <p><span class="cont">Teléfono personal </span>618 58 59 80</p>
-        <p><span class="cont">Email  </span><a href="mailto: jfernandezfa@sanitas.es">jfernandezfa@sanitas.es</a></p>
-      </div>
+        <p><img class = "icon" src="iphone.png" alt="contacto">685 34 85 01<p>
+        <p><img class = "icon" src="iphone.png" alt="contacto">618 58 59 80<p>
+        <p><img class = "icon" src="email.png" alt="email"><a href="mailto: jfernandezfa@sanitas.es">jfernandezfa@sanitas.es</a><p>
+        <p><img class = "icon" src="linkedin.png" alt="linkedin"><a href="https://www.linkedin.com/in/jordi-fern%C3%A1ndez-fandi%C3%B1o/">Seamos contacto en LinkedIn</a><p>
+        </div>
     </div>
     </body>
     <!-- Aos Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Script propio -->
+    <script src="index.js"></script>
     <script>
       AOS.init();
     </script>
