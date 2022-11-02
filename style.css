@@ -44,7 +44,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 1rem;
     margin-top: 2.5rem;
 }
 
@@ -52,12 +52,15 @@ body {
     object-fit: cover;
 }
 
+
 h1 {
     font-size: 2.5rem;
+    margin-bottom: 0.2rem;
 }
 
-td p {
+.head-title p {
     font-size: 1.4rem;
+    margin: 0.4rem 0;
 }
 
 hr {
@@ -165,11 +168,6 @@ a:hover {
     .head .pictureProfile {
         max-width: 9rem;
         margin: 0 auto;
-    }
-
-    .head-title h1 {
-        display: inline-block;
-        font-size: 2rem;
     }
 
     #dark img {
